@@ -357,7 +357,6 @@ while True:
         elif g[0] == 'adopt' and g[1] =='cat'and g[2] in catnames:
             newcat(g[2])
         elif g[0] == 'adopt' and g[1] == 'wild' and g[2] in wildnames:
-            print('Finne!')
             new_wild(g[2])
         elif g[0] == 'name' and g[1] in names:
             rename(g[1],g[2])
